@@ -1,32 +1,32 @@
 /* Basic Style */
-body {
+.todo-app {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
 }
 
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.header__image {
   width: 100%;
 }
 
-.aaa .more_inf {
+.header__link {
   font-family: "Fantasy", cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .header {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -83,7 +83,7 @@ label[for="new-task"] {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.todo-app__task-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +96,7 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.todo-app__task-input:focus {
   color: #333;
 }
 
@@ -121,22 +121,22 @@ li {
   align-items: center;
 }
 
-li > * {
+li>* {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li>input[type="checkbox"] {
   margin: 0 10px;
 }
 
-li > label {
+li>label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-li > input[type="text"] {
+li>.todo-app__task-input {
   width: 226px;
 }
 
@@ -157,11 +157,11 @@ ul#completed-tasks label {
 }
 
 /* Edit Task */
-ul li input[type="text"] {
+ul li .todo-app__task-input {
   display: none;
 }
 
-ul li.editMode input[type="text"] {
+ul li.editMode .todo-app__task-input {
   display: inline-block;
   width: 224px;
 }
