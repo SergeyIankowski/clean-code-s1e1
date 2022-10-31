@@ -153,7 +153,7 @@ button:hover {
 }
 
 /* Completed */
-.completed-tasks-container .list-item__title {
+.completed-tasks .list-item__title {
   text-decoration: line-through;
   color: #888;
 }
