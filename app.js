@@ -9,8 +9,8 @@
 
 const taskInput = document.querySelector(".todo-app__input_new-task");// Add a new task.
 const addButton = document.querySelector(".todo-app__button_add");// first button
-const incompleteTaskHolder = document.querySelector(".incomplete-tasks-container");// ul of #incompleteTasks
-const completedTasksHolder = document.querySelector(".completed-tasks-container");// completed-tasks
+const incompleteTaskHolder = document.querySelector(".incomplete-tasks__container");// ul of #incompleteTasks
+const completedTasksHolder = document.querySelector(".completed-tasks__container");// completed-tasks
 
 // New task list item
 const createNewTaskElement = function (taskString) {
