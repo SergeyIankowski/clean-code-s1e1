@@ -1,7 +1,4 @@
 /* Basic Style */
-li>* {
-  vertical-align: middle;
-}
 
 ul {
   margin: 0;
@@ -26,9 +23,11 @@ li {
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .header__image {
